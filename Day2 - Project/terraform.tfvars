@@ -1,0 +1,5 @@
+rgname = "terraform_rg1"
+location = "East US"
+prefix = "terraform_pratice"
+vnet_cidr_prefix = "10.10.0.0/16"
+subnet1_cidr_prefix = "10.10.1.0/24"
