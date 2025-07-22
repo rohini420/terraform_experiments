@@ -89,28 +89,28 @@ Each existing Azure resource was manually imported using their Azure resource ID
 
 ```bash
 # Import Resource Group
-terraform import azurerm_resource_group.rg /subscriptions/37437a42-7457-4f20-a970-b90f7af8c1bd/resourceGroups/terraform_rg1
+terraform import azurerm_resource_group.rg /subscriptions/<Azure Subscription ID>/resourceGroups/terraform_rg1
 
 # Import Virtual Network
-terraform import azurerm_virtual_network.vnet1 /subscriptions/37437a42-7457-4f20-a970-b90f7af8c1bd/resourceGroups/terraform_rg1/providers/Microsoft.Network/virtualNetworks/terraform_pratice-10
+terraform import azurerm_virtual_network.vnet1 /subscriptions/<Azure Subscription ID>/resourceGroups/terraform_rg1/providers/Microsoft.Network/virtualNetworks/terraform_pratice-10
 
 # Import Subnet
-terraform import azurerm_subnet.subnet1 /subscriptions/37437a42-7457-4f20-a970-b90f7af8c1bd/resourceGroups/terraform_rg1/providers/Microsoft.Network/virtualNetworks/terraform_pratice-10/subnets/subnet01
+terraform import azurerm_subnet.subnet1 /subscriptions/<Azure Subscription ID>/resourceGroups/terraform_rg1/providers/Microsoft.Network/virtualNetworks/terraform_pratice-10/subnets/subnet01
 
 # Import Network Interface
-terraform import azurerm_network_interface.nic1 /subscriptions/37437a42-7457-4f20-a970-b90f7af8c1bd/resourceGroups/terraform_rg1/providers/Microsoft.Network/networkInterfaces/terraform_pratice-nic
+terraform import azurerm_network_interface.nic1 /subscriptions/<Azure Subscription ID>/resourceGroups/terraform_rg1/providers/Microsoft.Network/networkInterfaces/terraform_pratice-nic
 
 # Import Network Security Group
-terraform import azurerm_network_security_group.nsg1 /subscriptions/37437a42-7457-4f20-a970-b90f7af8c1bd/resourceGroups/terraform_rg1/providers/Microsoft.Network/networkSecurityGroups/terraform_pratice-nsg1
+terraform import azurerm_network_security_group.nsg1 /subscriptions/<Azure Subscription ID>/resourceGroups/terraform_rg1/providers/Microsoft.Network/networkSecurityGroups/terraform_pratice-nsg1
 
 # Import Virtual Machine
-terraform import azurerm_windows_virtual_machine.main /subscriptions/37437a42-7457-4f20-a970-b90f7af8c1bd/resourceGroups/terraform_rg1/providers/Microsoft.Compute/virtualMachines/terraform_pratice.vmt01
+terraform import azurerm_windows_virtual_machine.main /subscriptions/<Azure Subscription ID>/resourceGroups/terraform_rg1/providers/Microsoft.Compute/virtualMachines/terraform_pratice.vmt01
 
 # Import Network Security Rule
-terraform import azurerm_network_security_rule.rdp /subscriptions/37437a42-7457-4f20-a970-b90f7af8c1bd/resourceGroups/terraform_rg1/providers/Microsoft.Network/networkSecurityGroups/terraform_pratice-nsg1/securityRules/rdp
+terraform import azurerm_network_security_rule.rdp /subscriptions/<Azure Subscription ID>/resourceGroups/terraform_rg1/providers/Microsoft.Network/networkSecurityGroups/terraform_pratice-nsg1/securityRules/rdp
 
 # Import NSG-Subnet Association
-terraform import azurerm_subnet_network_security_group_association.nsg_subnet_assoc /subscriptions/37437a42-7457-4f20-a970-b90f7af8c1bd/resourceGroups/terraform_rg1/providers/Microsoft.Network/virtualNetworks/terraform_pratice-10/subnets/subnet01
+terraform import azurerm_subnet_network_security_group_association.nsg_subnet_assoc /subscriptions/<Azure Subscription ID>/resourceGroups/terraform_rg1/providers/Microsoft.Network/virtualNetworks/terraform_pratice-10/subnets/subnet01
 ```
 
 ### Step 3: Verification
