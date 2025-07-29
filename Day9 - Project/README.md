@@ -186,11 +186,6 @@ terraform destroy
 * Regularly update Terraform and provider versions
 * Review and rotate access credentials periodically
 
-## 🛠 Author
-
-**Terraform learner**: Hemanth Sai Ram  
-**GitHub**: rohini420/terraform_experiments
-
 ---
 
 ## 📚 Additional Resources
