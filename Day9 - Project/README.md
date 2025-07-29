@@ -188,8 +188,8 @@ terraform destroy
 
 ---
 
-## 📚 Additional Resources
-
+**General Resources**
+- [All Terraform Functions](https://developer.hashicorp.com/terraform/language/functions)
 - [Terraform Azure Provider Documentation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs)
 - [Azure Terraform Best Practices](https://docs.microsoft.com/en-us/azure/developer/terraform/best-practices)
 - [Terraform Security Best Practices](https://learn.hashicorp.com/tutorials/terraform/security-best-practices)
