@@ -149,9 +149,6 @@ resource "resource_type" "name" {
 
 **Upcoming Topics:**
 - **Terraform Provisioners** - Learn how to execute scripts and commands
-- **Secrets Management** - Secure handling of sensitive data
-- **State Management** - Remote state and locking mechanisms
-- **Modules** - Creating reusable Terraform components
 
 ## 📚 Additional Resources
 
