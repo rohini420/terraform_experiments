@@ -1,4 +1,4 @@
-# Terraform Azure Resource Group & Storage Account Deployment
+# Terraform Azure Resource Group & Storage Account Deployment using terraform functions
 
 This project provisions an **Azure Resource Group** and a **Storage Account** using Terraform. The resource names are dynamically generated using Terraform functions like `join()` and `lower()`.
 
