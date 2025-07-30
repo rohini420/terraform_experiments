@@ -19,7 +19,6 @@ The infrastructure creates:
 ├── main.tf              # Main Terraform configuration
 ├── variables.tf         # Variable definitions
 ├── terraform.tfvars     # Variable values (excluded from git)
-├── outputs.tf           # Output definitions
 └── README.md           # This file
 ```
 
